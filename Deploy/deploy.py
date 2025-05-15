@@ -82,7 +82,7 @@ instances = ec2_resource.create_instances(
     TagSpecifications=[
         {
             'ResourceType': 'instance',
-            'Tags': [{'Key': 'Name', 'Value': 'pokemon-ec2'}]
+            'Tags': [{'Key': 'Name', 'Value': 'pokemon1.1-ec2'}]
         }
     ]
 )
